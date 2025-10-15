@@ -19,9 +19,9 @@ function comparerChoix(joueur, ordinateur) {
     (joueur === "eau" && ordinateur === "feu") ||
     (joueur === "terre" && ordinateur === "eau")
   ) {
-    return `Tu as gagné ! ${joueur} bat ${ordinateur}`;
+    return "Tu as gagné !";
   } else {
-    return `Tu as perdu ! ${ordinateur} bat ${joueur}`;
+    return "Tu as perdu !";
   }
 }
 
