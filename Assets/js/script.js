@@ -1,4 +1,4 @@
-//  console.log("Du javascript !");
+ console.log("Du javascript !");
 
 const Choix = ["feu", "eau", "terre"];
 
